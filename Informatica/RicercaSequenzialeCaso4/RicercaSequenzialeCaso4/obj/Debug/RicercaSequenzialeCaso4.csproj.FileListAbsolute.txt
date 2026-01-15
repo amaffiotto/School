@@ -1,0 +1,8 @@
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenzialeCaso4\RicercaSequenzialeCaso4\bin\Debug\RicercaSequenzialeCaso4.exe.config
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenzialeCaso4\RicercaSequenzialeCaso4\bin\Debug\RicercaSequenzialeCaso4.exe
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenzialeCaso4\RicercaSequenzialeCaso4\bin\Debug\RicercaSequenzialeCaso4.pdb
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenzialeCaso4\RicercaSequenzialeCaso4\obj\Debug\RicercaSequenzialeCaso4.csproj.AssemblyReference.cache
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenzialeCaso4\RicercaSequenzialeCaso4\obj\Debug\RicercaSequenzialeCaso4.csproj.CoreCompileInputs.cache
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenzialeCaso4\RicercaSequenzialeCaso4\obj\Debug\RicercaSequenzialeCaso4.exe
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenzialeCaso4\RicercaSequenzialeCaso4\obj\Debug\RicercaSequenzialeCaso4.pdb
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenzialeCaso4\RicercaSequenzialeCaso4\obj\Debug\RicercaSequenzialeCaso4.exe.config

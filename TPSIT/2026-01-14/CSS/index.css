@@ -1,0 +1,128 @@
+* {
+    font-size: 16px;
+    /*1 rem sono 16px*/
+}
+
+p {
+    color: blue;
+    font-size: 18px;
+}
+
+.speciale {
+    color: red;
+    font-weight: bold;
+}
+
+#importante {
+    color: purple;
+    background-color: yellow;
+    padding: 10px;
+}
+
+/*combinatore figlio diretto*/
+section>p {
+    background-color: aqua;
+    padding: 10px;
+}
+
+/*combinatore fratello adiacente*/
+h3+p {
+    font-weight: bold;
+    color: green;
+}
+
+/*combinatore fratelli*/
+h3~p {
+    font-style: italic;
+    color: gray;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+input:valid {
+    border-color: green;
+    background-color: lightgreen;
+}
+
+input:invalid {
+    border-color: red;
+    background-color: pink;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+.box-block {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: lightblue;
+}
+
+.box-inline {
+    display: inline;
+    width: 150px;
+    height: 400px;
+    padding: 10px;
+    background-color: lightcoral;
+    /*
+    NON FUNZIONA PERCHE' IL DISPLAY:inline NON PERMETTE DI USARE LA PROPIETA' DELLE DIMENSIONI
+
+    margin: 10px 0;
+    */
+}
+
+.box-px {
+    width: 300px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+.box-percent {
+    width: 50%;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.box-rem {
+    width: 20rem;
+    padding: 10px;
+    background-color: lightcoral;
+}

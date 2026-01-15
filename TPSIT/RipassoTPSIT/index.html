@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ripasso TPSIT</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Dichiarazione di una funzione</h2>
+            <div class="code-container">
+                <p>nomeFunzione(parametro1, parametro2, ...)
+                    <br>
+                    { <br>
+                    &nbsp &nbsp ... <br>
+                    } <br>
+                </p>
+            </div>
+            <br>
+            <h2>Chiamata di una funzione</h2>
+            <p>
+            <div class="code-container">
+                nomeFunzione(valore1, valore2, ...)
+            </div>
+            </p>
+        </section>
+        <section>
+            <h2>Esempio di funzione</h2>
+            <br>
+            <div class="code-container">
+                function saluto() { <br>
+                &nbsp; &nbsp; alert("Ciao"); <br>
+                }
+            </div>
+            </p>
+            <br>
+            <p>richiamo funzione con:
+            <div class="code-container">
+                <code>&lt;button onclick="saluto()"&gt;Clicca qui&lt;/button&gt;</code>
+            </div>
+            </p>
+        </section>
+        <section>
+            <h2>Bottoni per testare</h2>
+
+            <button onclick="saluto()">Clicca qui</button>
+        </section>
+        <hr>
+        <section>
+            <h2 class="super-header">Cambio titolo con id</h2>
+            <p>Codice HTML:</p>
+            <div class="code-container">
+                &lt;h3 id="test"&gt;Titolo originale&lt;/h3&gt;<br>
+                &lt;button onclick="cambiaTesto()"&gt;Cambia titolo&lt;/button&gt;<br>
+                &lt;button onclick="ripristinaTesto()"&gt;Ripristina titolo&lt;/button&gt;
+            </div>
+            <br>
+            <p>Codice JavaScript:</p>
+            <div class="code-container">
+                function cambiaTesto() {<br>
+                &nbsp; &nbsp; let titolo = document.getElementById("test");<br>
+                &nbsp; &nbsp; titolo.textContent = "Titolo cambiato";<br>
+                }<br>
+                <br>
+                function ripristinaTesto() {<br>
+                &nbsp; &nbsp; let titolo = document.getElementById("test");<br>
+                &nbsp; &nbsp; titolo.textContent = "Titolo originale";<br>
+                }
+            </div>
+            <br>
+            <h3 id="test">Titolo originale</h3>
+            <button id="bottone" onclick="cambiaTesto()">Cambia titolo</button>
+            <button onclick="ripristinaTesto()">Ripristina titolo</button>
+        </section>
+    </main>
+    <footer>
+        <hr>
+    </footer>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

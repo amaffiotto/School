@@ -1,0 +1,8 @@
+C:\Users\a.maffiotto.4046\source\repos\RicercaBinaria\RicercaBinaria\bin\Debug\RicercaBinaria.exe.config
+C:\Users\a.maffiotto.4046\source\repos\RicercaBinaria\RicercaBinaria\bin\Debug\RicercaBinaria.exe
+C:\Users\a.maffiotto.4046\source\repos\RicercaBinaria\RicercaBinaria\bin\Debug\RicercaBinaria.pdb
+C:\Users\a.maffiotto.4046\source\repos\RicercaBinaria\RicercaBinaria\obj\Debug\RicercaBinaria.csproj.AssemblyReference.cache
+C:\Users\a.maffiotto.4046\source\repos\RicercaBinaria\RicercaBinaria\obj\Debug\RicercaBinaria.csproj.CoreCompileInputs.cache
+C:\Users\a.maffiotto.4046\source\repos\RicercaBinaria\RicercaBinaria\obj\Debug\RicercaBinaria.exe
+C:\Users\a.maffiotto.4046\source\repos\RicercaBinaria\RicercaBinaria\obj\Debug\RicercaBinaria.pdb
+C:\Users\a.maffiotto.4046\source\repos\RicercaBinaria\RicercaBinaria\obj\Debug\RicercaBinaria.exe.config

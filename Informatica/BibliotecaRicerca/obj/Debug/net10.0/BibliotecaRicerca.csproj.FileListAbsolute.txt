@@ -1,0 +1,14 @@
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/bin/Debug/net10.0/BibliotecaRicerca
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/bin/Debug/net10.0/BibliotecaRicerca.deps.json
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/bin/Debug/net10.0/BibliotecaRicerca.runtimeconfig.json
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/bin/Debug/net10.0/BibliotecaRicerca.dll
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/bin/Debug/net10.0/BibliotecaRicerca.pdb
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/BibliotecaRicerca.GeneratedMSBuildEditorConfig.editorconfig
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/BibliotecaRicerca.AssemblyInfoInputs.cache
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/BibliotecaRicerca.AssemblyInfo.cs
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/BibliotecaRicerca.csproj.CoreCompileInputs.cache
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/BibliotecaRicerca.dll
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/refint/BibliotecaRicerca.dll
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/BibliotecaRicerca.pdb
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/BibliotecaRicerca.genruntimeconfig.cache
+/home/andrea/GoogleDrive/Materie d'indirizzo/Informatica/Esercizi C#/BibliotecaRicerca/obj/Debug/net10.0/ref/BibliotecaRicerca.dll

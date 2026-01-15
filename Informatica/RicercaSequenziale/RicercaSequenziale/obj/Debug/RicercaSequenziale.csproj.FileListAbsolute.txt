@@ -1,0 +1,7 @@
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenziale\RicercaSequenziale\bin\Debug\RicercaSequenziale.exe.config
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenziale\RicercaSequenziale\bin\Debug\RicercaSequenziale.exe
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenziale\RicercaSequenziale\bin\Debug\RicercaSequenziale.pdb
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenziale\RicercaSequenziale\obj\Debug\RicercaSequenziale.csproj.AssemblyReference.cache
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenziale\RicercaSequenziale\obj\Debug\RicercaSequenziale.csproj.CoreCompileInputs.cache
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenziale\RicercaSequenziale\obj\Debug\RicercaSequenziale.exe
+C:\Users\a.maffiotto.4046\source\repos\RicercaSequenziale\RicercaSequenziale\obj\Debug\RicercaSequenziale.pdb

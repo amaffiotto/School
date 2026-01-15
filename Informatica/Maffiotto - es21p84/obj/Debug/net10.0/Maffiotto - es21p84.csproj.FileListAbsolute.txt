@@ -1,0 +1,14 @@
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/bin/Debug/net10.0/Maffiotto - es21p84
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/bin/Debug/net10.0/Maffiotto - es21p84.deps.json
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/bin/Debug/net10.0/Maffiotto - es21p84.runtimeconfig.json
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/bin/Debug/net10.0/Maffiotto - es21p84.dll
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/bin/Debug/net10.0/Maffiotto - es21p84.pdb
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/Maffiotto - es21p84.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/Maffiotto - es21p84.AssemblyInfoInputs.cache
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/Maffiotto - es21p84.AssemblyInfo.cs
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/Maffiotto - es21p84.csproj.CoreCompileInputs.cache
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/Maffiotto - es21p84.dll
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/refint/Maffiotto - es21p84.dll
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/Maffiotto - es21p84.pdb
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/Maffiotto - es21p84.genruntimeconfig.cache
+/Users/andrea/Library/CloudStorage/GoogleDrive-a.maffiotto.4046@vallauri.edu/My Drive/Materie d'indirizzo/Informatica/Esercizi C#/Maffiotto - es21p84/obj/Debug/net10.0/ref/Maffiotto - es21p84.dll

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.maffiotto.4046\\source\\repos\\Maffiotto-es1p115\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB9B4F-B5A2-4134-97B0-F3CFB1C06DA6}|Maffiotto-es1p115\\Maffiotto-es1p115.csproj|c:\\users\\a.maffiotto.4046\\source\\repos\\maffiotto-es1p115\\maffiotto-es1p115\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB9B4F-B5A2-4134-97B0-F3CFB1C06DA6}|Maffiotto-es1p115\\Maffiotto-es1p115.csproj|solutionrelative:maffiotto-es1p115\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\a.maffiotto.4046\\source\\repos\\Maffiotto-es1p115\\Maffiotto-es1p115\\Program.cs",
+              "RelativeDocumentMoniker": "Maffiotto-es1p115\\Program.cs",
+              "ToolTip": "C:\\Users\\a.maffiotto.4046\\source\\repos\\Maffiotto-es1p115\\Maffiotto-es1p115\\Program.cs",
+              "RelativeToolTip": "Maffiotto-es1p115\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T10:46:28.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
