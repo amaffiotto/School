@@ -1,0 +1,73 @@
+body{
+    background-color: #2980b9;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+input{
+    border-radius: 6px;
+    width: 545px;
+    display: flex;
+    height: 40px;
+    align-content: center;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 550px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#ResultContainer{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: fit-content;
+}
+
+.card{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    place-items: center;
+    padding: 10px;
+    width: 600px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+img{
+    width: 550px;
+    height: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #2980b9;
+    border-width: 5px;
+}

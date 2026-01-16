@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <header>
+        <!--
+        ===HTML===
+        - Pulsante per generare il numero casuale
+        - Un imput text per scrivere il numero ed un pulsante indovina
+        - Scaricare 5 immagini dal web diverse
+        - ad intervalli di venti mostrare una delle 5 immagini
+        - in base al numero inserito dall'utente, modificare il paragrafo indicando la differenza tra il numero inserito ed il numero
+        -->
+    </header>
+    <main>
+        <section>
+            <div class="card">
+                <div id="ResultContainer"><p>Fai un tentativo</p></div>
+                <input type="number" min="100" max="200" id="guessBox" placeholder="Inserisci un numero da 100 a 200">
+                <button onclick="GeneraNumero()">Genera numero</button>
+                <button onclick="IndovinaNumero()">Indovina</button>
+                <div id="ImageContainer"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
