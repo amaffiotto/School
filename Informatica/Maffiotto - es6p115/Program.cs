@@ -21,9 +21,7 @@ namespace Maffiotto___es6p115
                 "Victor", "Khvicha", "Giovanni",
                 "Paulo", "Lorenzo", "Gianluca"
             };
-
-            // Ho modificato l'ultima squadra (Mancini) da Roma a Napoli 
-            // per avere conteggi diversi e testare l'ordinamento decrescente.
+            
             string[] squadre = {
                 "Juventus", "Juventus", "Juventus",
                 "Milan", "Milan", "Milan",
@@ -42,8 +40,7 @@ namespace Maffiotto___es6p115
             string[] nomiSquadreUniche = new string[squadre.Length];
             int[] numeroGiocatori = new int[squadre.Length];
             int contaSquadre = 0;
-
-            // Conteggio giocatori per squadra
+            
             for (int i = 0; i < squadre.Length; i++)
             {
                 string squadraCorrente = squadre[i];
@@ -69,8 +66,7 @@ namespace Maffiotto___es6p115
                     contaSquadre++;
                 }
             }
-
-            // Ordinamento Decrescente (Bubble Sort)
+            
             for (int i = 0; i < contaSquadre - 1; i++)
             {
                 for (int j = 0; j < contaSquadre - 1 - i; j++)
