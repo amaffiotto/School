@@ -13,6 +13,8 @@ class Program
         {
             "Alba", "Bra", "Cuneo", "Fossano", "Saluzzo", "Savigliano", "Cavallermaggiore", "Bandito", "Roreto", "B. S. Martino"
         };
+        Array.Sort(nomi);
+        Array.Sort(citta);
         bool trovato = false, superato = false;
         int i = 0,cont = 0;
         
@@ -40,6 +42,13 @@ class Program
             }
         }
 
-        Console.WriteLine($"Il numero di studenti residenti a {citta} sono: {cont}");
+        if (trovato)
+        {
+            Console.WriteLine($"Il numero di studenti residenti a {nome} sono: {cont}");
+        }
+        else
+        {
+            Console.WriteLine($"Nessuno studente residente a {nome}");
+        }
     }
 }
