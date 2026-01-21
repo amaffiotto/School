@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione 1 - Ripasso CSS Completo</title>
+    <link rel="stylesheet" href="lezione1_completo.css">
+</head>
+<body>
+    <header>
+        <h1>Lezione 1 - Ripasso CSS</h1>
+        <p>Selettori, Pseudo-classi, Display e Unità di Misura</p>
+        <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.9;">Prof.ssa Manuela Marchisio</p>
+    </header>
+
+    <main>
+        <!-- ============================================
+             SEZIONE 1: SELETTORI E SPECIFICITÀ
+             ============================================ -->
+        <section class="selettori">
+            <h2>1. Selettori CSS e Specificità</h2>
+            
+            <!-- Selettore di TIPO -->
+            <div class="esempio">
+                <h3>Selettore di TIPO (p)</h3>
+                <p>Questo è un paragrafo normale (selettore di tipo)</p>
+            </div>
+
+            <!-- Selettore di CLASSE -->
+            <div class="esempio">
+                <h3>Selettore di CLASSE (.speciale)</h3>
+                <p>Paragrafo normale</p>
+                <p class="speciale">Paragrafo con classe .speciale</p>
+            </div>
+
+            <!-- Selettore ID -->
+            <div class="esempio">
+                <h3>Selettore ID (#importante)</h3>
+                <p>Paragrafo normale</p>
+                <p class="speciale">Paragrafo con classe</p>
+                <p class="speciale" id="importante">Paragrafo con ID #importante (vince su tutto!)</p>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SEZIONE 2: COMBINATORI
+             ============================================ -->
+        <section class="combinatori">
+            <h2>2. Combinatori CSS</h2>
+
+            <!-- Discendente vs Figlio Diretto -->
+            <div class="esempio">
+                <h3>Combinatore Discendente (spazio) vs Figlio Diretto (>)</h3>
+                <section class="test-combinatori">
+                    <p>Paragrafo figlio DIRETTO di section</p>
+                    <div>
+                        <p>Paragrafo dentro un DIV (non figlio diretto)</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Fratello Adiacente e Generali -->
+            <div class="esempio">
+                <h3>Fratello Adiacente (+) vs Fratelli Generali (~)</h3>
+                <div class="test-fratelli">
+                    <h4>Titolo H4</h4>
+                    <p>Primo paragrafo dopo h4 (fratello adiacente)</p>
+                    <p>Secondo paragrafo dopo h4 (fratello generale)</p>
+                    <span>Questo è uno SPAN</span>
+                    <p>Terzo paragrafo dopo h4 (fratello generale)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SEZIONE 3: PSEUDO-CLASSI
+             ============================================ -->
+        <section class="pseudo-classi">
+            <h2>3. Pseudo-classi</h2>
+
+            <!-- :hover e :active -->
+            <div class="esempio">
+                <h3>:hover e :active sui Bottoni</h3>
+                <button class="btn-hover">Passa il mouse (hover)</button>
+                <button class="btn-active">Clicca qui (active)</button>
+                <button class="btn-completo">Hover + Active</button>
+            </div>
+
+            <!-- :focus, :valid, :invalid -->
+            <div class="esempio">
+                <h3>:focus, :valid e :invalid sui Form</h3>
+                <form>
+                    <label for="email">Email (obbligatoria):</label>
+                    <input type="email" id="email" placeholder="esempio@email.com" required>
+
+                    <label for="password">Password (minimo 6 caratteri):</label>
+                    <input type="password" id="password" placeholder="Password" minlength="6" required>
+
+                    <label for="eta">Età (18-100):</label>
+                    <input type="number" id="eta" min="18" max="100" required>
+                </form>
+            </div>
+
+            <!-- :link, :visited, :hover, :active -->
+            <div class="esempio">
+                <h3>:link, :visited, :hover, :active sui Link</h3>
+                <p>Clicca sui link per vedere i diversi stati:</p>
+                <nav>
+                    <ul>
+                        <li><a href="#link1">Link 1 - Non visitato</a></li>
+                        <li><a href="#link2">Link 2 - Passa il mouse</a></li>
+                        <li><a href="#link3">Link 3 - Clicca per visitare</a></li>
+                        <li><a href="https://developer.mozilla.org/it/" target="_blank">Link 4 - Esterno (MDN)</a></li>
+                    </ul>
+                </nav>
+                <div class="info-box">
+                    <strong>Ordine LVHA (LoVe HAte):</strong><br>
+                    :link (blu) → :visited (viola) → :hover (arancione) → :active (rosso)
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SEZIONE 4: DISPLAY
+             ============================================ -->
+        <section class="display">
+            <h2>4. Proprietà Display</h2>
+
+            <!-- display: block -->
+            <div class="esempio">
+                <h3>display: block</h3>
+                <div class="box-block">Box 1 - display: block</div>
+                <div class="box-block">Box 2 - display: block</div>
+                <div class="box-block">Box 3 - display: block</div>
+                <p class="nota">I box BLOCK vanno a capo e occupano tutta la larghezza</p>
+            </div>
+
+            <!-- display: inline -->
+            <div class="esempio">
+                <h3>display: inline</h3>
+                <div class="container-inline">
+                    <span class="box-inline">Span 1</span>
+                    <span class="box-inline">Span 2</span>
+                    <span class="box-inline">Span 3</span>
+                </div>
+                <p class="nota">Gli elementi INLINE stanno sulla stessa riga (width/height NON funzionano)</p>
+            </div>
+
+            <!-- display: inline-block -->
+            <div class="esempio">
+                <h3>display: inline-block</h3>
+                <div class="container-inline-block">
+                    <div class="box-inline-block">Box 1<br>150px</div>
+                    <div class="box-inline-block">Box 2<br>150px</div>
+                    <div class="box-inline-block">Box 3<br>150px</div>
+                </div>
+                <p class="nota">INLINE-BLOCK sta sulla stessa riga MA accetta width/height!</p>
+            </div>
+
+            <!-- display: none -->
+            <div class="esempio">
+                <h3>display: none</h3>
+                <div class="visibility-demo">
+                    <div class="box-visible">Box Visibile</div>
+                    <div class="box-hidden">Box Nascosto (display: none)</div>
+                    <div class="box-visible">Box Visibile</div>
+                </div>
+                <p class="nota">Il box nascosto NON occupa spazio nel layout</p>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SEZIONE 5: UNITÀ DI MISURA
+             ============================================ -->
+        <section class="unita-misura">
+            <h2>5. Unità di Misura</h2>
+
+            <!-- Unità Assolute -->
+            <div class="esempio">
+                <h3>Unità ASSOLUTE (px, cm, pt)</h3>
+                <div class="box-px">200px (pixel)</div>
+                <div class="box-cm">5cm (centimetri)</div>
+                <div class="box-pt">100pt (punti)</div>
+                <p class="nota">Le unità assolute hanno dimensioni FISSE</p>
+            </div>
+
+            <!-- Percentuale -->
+            <div class="esempio">
+                <h3>Percentuale (%) - Relativa al parent</h3>
+                <div class="parent-container">
+                    <div class="box-25">25%</div>
+                    <div class="box-50">50%</div>
+                    <div class="box-75">75%</div>
+                </div>
+                <p class="nota">Ridimensiona la finestra per vedere l'effetto!</p>
+            </div>
+
+            <!-- EM vs REM -->
+            <div class="esempio">
+                <h3>EM vs REM - La Differenza Chiave</h3>
+                
+                <div class="info-box">
+                    <strong>📏 Differenza Fondamentale:</strong><br>
+                    • <strong>EM</strong> = Relativo al <em>parent diretto</em> (elemento genitore) → Si accumula!<br>
+                    • <strong>REM</strong> = Relativo al <em>root</em> (tag &lt;html&gt;) → NON si accumula!<br>
+                    • <strong>Root (html)</strong> = 16px di default del browser
+                </div>
+
+                <div class="em-demo">
+                    <h4>EM (relativo al parent) - SI ACCUMULA 📈</h4>
+                    <div class="em-parent">
+                        <strong>Parent: 20px</strong>
+                        <div class="em-child">
+                            <strong>Child: 1.5em</strong> → 1.5 × 20px (parent) = <strong>30px</strong>
+                            <div class="em-grandchild">
+                                <strong>Grandchild: 1.5em</strong> → 1.5 × 30px (child) = <strong>45px</strong> 🔄 ACCUMULO!
+                            </div>
+                        </div>
+                    </div>
+                    <p class="nota">
+                        ⚠️ EM si moltiplica per il font-size del PARENT: ogni livello aumenta la dimensione!<br>
+                        Problema: Difficile prevedere la dimensione finale in strutture complesse.
+                    </p>
+                </div>
+
+                <div class="rem-demo">
+                    <h4>REM (relativo al root) - NON SI ACCUMULA ✅</h4>
+                    <div class="rem-parent">
+                        <strong>Parent</strong> (dimensione irrilevante)
+                        <div class="rem-child">
+                            <strong>Child: 1.5rem</strong> → 1.5 × 16px (html) = <strong>24px</strong>
+                            <div class="rem-grandchild">
+                                <strong>Grandchild: 1.5rem</strong> → 1.5 × 16px (html) = <strong>24px</strong> ✅ SEMPRE UGUALE!
+                            </div>
+                        </div>
+                    </div>
+                    <p class="nota">
+                        ✅ REM guarda sempre l'elemento &lt;html&gt; (16px di default): prevedibile e consistente!<br>
+                        Meglio per dimensioni globali: font, padding, margin, layout.
+                    </p>
+                </div>
+
+                <div class="info-box">
+                    <strong>💡 Quando usare EM vs REM:</strong><br>
+                    • <strong>REM</strong>: Layout, spaziature, font generali (più prevedibile) ✅<br>
+                    • <strong>EM</strong>: Componenti che devono scalare col parent (es: padding bottoni)<br>
+                    • <strong>Esempio pratico:</strong><br>
+                    &nbsp;&nbsp;• button { padding: 0.5em 1em; } → scala col font-size del bottone<br>
+                    &nbsp;&nbsp;• h1 { font-size: 2rem; } → sempre 32px, indipendentemente dal parent
+                </div>
+            </div>
+
+            <!-- Viewport Units -->
+            <div class="exemplo">
+                <h3>Viewport Units (VW / VH)</h3>
+                <div class="box-vw">50vw (50% larghezza viewport)</div>
+                <div class="box-vh">30vh (30% altezza viewport)</div>
+                <p class="nota">Ridimensiona il browser per vedere l'effetto!</p>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SEZIONE RIEPILOGO
+             ============================================ -->
+        <section class="riepilogo">
+            <h2>📋 Riepilogo</h2>
+            <div class="riepilogo-grid">
+                <div class="card">
+                    <h3>Specificità</h3>
+                    <p>ID (100) > Classe (10) > Tipo (1)</p>
+                </div>
+                <div class="card">
+                    <h3>Combinatori</h3>
+                    <p>> (figlio diretto)<br>+ (fratello adiacente)<br>~ (fratelli generali)</p>
+                </div>
+                <div class="card">
+                    <h3>Pseudo-classi</h3>
+                    <p>:hover, :active, :focus<br>:valid, :invalid<br>:link, :visited (LVHA)</p>
+                </div>
+                <div class="card">
+                    <h3>Display</h3>
+                    <p>block (va a capo)<br>inline (no width/height)<br>inline-block (meglio)</p>
+                </div>
+                <div class="card">
+                    <h3>Unità Assolute</h3>
+                    <p>px, cm, pt</p>
+                </div>
+                <div class="card">
+                    <h3>Unità Relative</h3>
+                    <p>%, em, rem, vw, vh</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>💡 Apri DevTools (F12) e ispeziona gli elementi per vedere le regole CSS applicate!</p>
+        <p>Prova a modificare i valori CSS e osserva i cambiamenti in tempo reale</p>
+    </footer>
+</body>
+</html>
