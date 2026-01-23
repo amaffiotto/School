@@ -1,0 +1,15 @@
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/bin/Debug/net10.0/lesson
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/bin/Debug/net10.0/lesson.deps.json
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/bin/Debug/net10.0/lesson.runtimeconfig.json
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/bin/Debug/net10.0/lesson.dll
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/bin/Debug/net10.0/lesson.pdb
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/lesson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/lesson.AssemblyInfoInputs.cache
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/lesson.AssemblyInfo.cs
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/lesson.csproj.CoreCompileInputs.cache
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/lesson.sourcelink.json
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/lesson.dll
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/refint/lesson.dll
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/lesson.pdb
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/lesson.genruntimeconfig.cache
+/Users/andrea/Documents/School/Informatica/lab-benchmarking-di-algoritmi-amaffiotto/lesson/obj/Debug/net10.0/ref/lesson.dll
