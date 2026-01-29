@@ -1,0 +1,15 @@
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/bin/Debug/net10.0/esercizio-2026-01-29
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/bin/Debug/net10.0/esercizio-2026-01-29.deps.json
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/bin/Debug/net10.0/esercizio-2026-01-29.runtimeconfig.json
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/bin/Debug/net10.0/esercizio-2026-01-29.dll
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/bin/Debug/net10.0/esercizio-2026-01-29.pdb
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/esercizio-2026-01-29.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/esercizio-2026-01-29.AssemblyInfoInputs.cache
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/esercizio-2026-01-29.AssemblyInfo.cs
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/esercizio-2026-01-29.csproj.CoreCompileInputs.cache
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/esercizio-2026-01-29.sourcelink.json
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/esercizio-2026-01-29.dll
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/refint/esercizio-2026-01-29.dll
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/esercizio-2026-01-29.pdb
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/esercizio-2026-01-29.genruntimeconfig.cache
+/Users/andrea/Documents/School/Informatica/esercizio-2026-01-29/obj/Debug/net10.0/ref/esercizio-2026-01-29.dll
