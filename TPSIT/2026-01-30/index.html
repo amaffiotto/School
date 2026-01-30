@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ripasso JavaScript</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Prism.js for Syntax Highlighting (Atom Dark Theme) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-twilight.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Ripasso JavaScript</h1>
+            <nav>
+                <a href="index.html" class="active">Ripasso</a>
+                <a href="pratica.html">Pratica</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Variabili</h2>
+            <p>Esempi di dichiarazione di variabili:</p>
+            <pre><code class="language-javascript">
+let var1 = 12;      // Numero
+let var2 = "12";    // Stringa
+let var3;           // Undefined
+const pigreco = 3.14; // Costante
+var parola;         // Vecchia sintassi
+            </code></pre>
+        </section>
+
+        <section class="card">
+            <h2>Tipi di dato</h2>
+            <ul>
+                <li><code data-tooltip="Numeri interi e decimali">number</code></li>
+                <li><code data-tooltip="Testo racchiuso tra virgolette">string</code></li>
+                <li><code data-tooltip="Vero (true) o Falso (false)">boolean</code></li>
+                <li><code data-tooltip="Assenza intenzionale di valore">null</code></li>
+                <li><code data-tooltip="Variabile non inizializzata">undefined</code></li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Stringhe e Template Literal</h2>
+            <p>Le stringhe possono essere delimitate da:</p>
+            <ul>
+                <li><code>" "</code> Doppi apici</li>
+                <li><code>' '</code> Singoli apici</li>
+                <li><code>` `</code> Backtick (Template Literal)</li>
+            </ul>
+            <p>I <strong>Backtick</strong> permettono di inserire variabili direttamente nella stringa con
+                <code>${...}</code>.
+            </p>
+            <pre><code class="language-javascript">
+let nome = "Luca";
+let saluto = `Ciao ${nome}!`; // "Ciao Luca!"
+
+// Multilinea
+let testo = `Questo è un testo
+su più righe`;
+
+// Metodi utili (Case sensitive)
+console.log(nome.length);   // Lunghezza stringa
+console.log(nome.charAt(0)); // Primo carattere ('L')
+console.log(nome.indexOf('L')); // Indice di 'L' (0)
+console.log(nome.lastIndexOf('a')); // Ultimo indice di 'a'
+console.log(nome.indexOf('z')); // -1 (Non trovato)
+
+// substring(inizio, fine_esclusa)
+// Se ometto la fine, va fino in fondo
+console.log(nome.substring(0, 3)); // "Luc" (da 0 a 3 escluso)
+console.log(nome.substring(1));    // "uca" (da 1 alla fine)
+
+// Maiuscolo / Minuscolo
+console.log(nome.toUpperCase()); // "LUCA"
+console.log(nome.toLowerCase()); // "luca"
+
+// Trim (rimuove spazi inizio/fine)
+let spazi = "  Ciao  ";
+console.log(spazi.trim());       // "Ciao"
+            </code></pre>
+        </section>
+
+        <section class="card">
+            <h2>Split e Join</h2>
+            <p>Trasformare Stringhe in Array e viceversa.</p>
+            <pre><code class="language-javascript">
+let frase = "uno,due,tre";
+
+// SPLIT: Stringa -> Array
+let splittati = frase.split(","); 
+console.log(splittati); // ["uno", "due", "tre"]
+
+// JOIN: Array -> Stringa
+let uniti = splittati.join("-");
+console.log(uniti); // "uno-due-tre"
+            </code></pre>
+        </section>
+
+        <section class="card">
+            <h2>Concatenazione Stringhe</h2>
+            <p>Unire due o più stringhe in una sola.</p>
+            <pre><code class="language-javascript">
+let n = "Ciao";
+let m = "Mondo";
+
+// Operatore +
+let saluto = n + " " + m; 
+console.log(saluto); // "Ciao Mondo"
+
+// concat()
+let saluto2 = n.concat(" ", m);
+console.log(saluto2); // "Ciao Mondo"
+            </code></pre>
+        </section>
+
+        <section class="card">
+            <h2>Scope delle Variabili</h2>
+            <p>Lo scope determina l'accessibilità (visibilità) delle variabili.</p>
+            <ul>
+                <li><strong>Block Scope</strong> (<code>let</code>, <code>const</code>): La variabile esiste solo
+                    all'interno del blocco <code>{}</code>.</li>
+                <li><strong>Function Scope</strong> (<code>var</code>): La variabile è visibile in tutta la funzione.
+                </li>
+                <li><strong>Global Scope</strong>: Visibile ovunque nello script.</li>
+            </ul>
+            <pre><code class="language-javascript">
+{
+    let blocco = "Segreto"; // Invisibile fuori
+    var funzione = "Pubblico"; // Visibile fuori (se non siamo in una func)
+}
+// console.log(blocco); // Error
+console.log(funzione); // "Pubblico"
+            </code></pre>
+        </section>
+
+        <section class="card">
+            <h2>Operatori</h2>
+            <div class="operators-grid">
+                <div class="op-category">
+                    <h3>Aritmetici</h3>
+                    <ul>
+                        <li><code class="inline-code">+</code> Addizione</li>
+                        <li><code class="inline-code">-</code> Sottrazione</li>
+                        <li><code class="inline-code">*</code> Moltiplicazione</li>
+                        <li><code class="inline-code">/</code> Divisione</li>
+                        <li><code class="inline-code">%</code> Modulo (Resto)</li>
+                    </ul>
+                    <pre><code class="language-javascript">
+let somma = 10 + 5; // 15
+let resto = 10 % 3; // 1
+                    </code></pre>
+                </div>
+                <div class="op-category">
+                    <h3>Confronto</h3>
+                    <p><code>==</code> confronta solo il valore</p>
+                    <p><code>===</code> uguaglianza stretta (valore e tipo)</p>
+                    <pre><code class="language-javascript">
+let v1 = 5;
+let v2 = "5";
+
+v1 == v2  // true
+v1 === v2 // false
+                    </code></pre>
+                </div>
+                <div class="op-category">
+                    <h3>Logici</h3>
+                    <ul>
+                        <li><code>&&</code> <strong>AND</strong>: Vero se entrambi veri</li>
+                        <li><code>||</code> <strong>OR</strong>: Vero se almeno uno vero</li>
+                        <li><code>!</code> <strong>NOT</strong>: Inverte il risultato</li>
+                    </ul>
+                    <pre><code class="language-javascript">
+let x = true;
+let y = false;
+
+x && y // false
+x || y // true
+!x     // false
+                    </code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" id="lavagna">
+            <h2>Tabella della Verità (AND)</h2>
+            <div class="truth-table-container">
+                <table class="truth-table">
+                    <thead>
+                        <tr>
+                            <th>C1</th>
+                            <th>C2</th>
+                            <th>C1 && C2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>False</td>
+                            <td>False</td>
+                            <td class="result-false">False</td>
+                        </tr>
+                        <tr>
+                            <td>False</td>
+                            <td>True</td>
+                            <td class="result-false">False</td>
+                        </tr>
+                        <tr>
+                            <td>True</td>
+                            <td>False</td>
+                            <td class="result-false">False</td>
+                        </tr>
+                        <tr>
+                            <td>True</td>
+                            <td>True</td>
+                            <td class="result-true">True</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card" id="funzioni">
+            <h2>Funzioni</h2>
+            <pre><code class="language-javascript">
+function somma(a, b) {
+    return a + b;
+}
+
+// Funzione anonima
+let risultato = function() {
+    console.log("Ciao!");
+}
+            </code></pre>
+        </section>
+
+        <section class="card">
+            <h2>Arrow Functions</h2>
+            <pre><code class="language-javascript">
+// Sintassi concisa
+const somma = (a, b) => a + b;
+
+// Con blocco di codice
+const saluta = () => {
+    console.log("Ciao Mondo!");
+}
+            </code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ripasso TPSIT</p>
+    </footer>
+
+    <!-- Prism JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
