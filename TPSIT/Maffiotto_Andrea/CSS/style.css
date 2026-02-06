@@ -112,6 +112,10 @@ h2 {
     padding: 12px;
 }
 
+.selected {
+    background-color: #e0e0e0 !important;
+}
+
 .quest-cont {
     display: flex;
     flex-direction: column;

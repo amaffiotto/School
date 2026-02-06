@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(circle, var(--bg-white) 0%, #dee2e6 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    padding: 40px 60px;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.slot h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.numeri {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.numeri span {
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--text-white);
+    min-width: 60px;
+    display: inline-block;
+}
+
+button {
+    background-color: #ffca3a;
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background-color: #f14c5a;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+#messaggio {
+    margin-top: 25px;
+    font-size: 1.1rem;
+    min-height: 1.5em;
+    font-weight: 400;
+    opacity: 0.9;
+}

@@ -1,25 +1,32 @@
-let frame;
-function mostraSezione() {
-    iframee = document.getElementById('card');
-    iframee.innerHTML = '<div class="cont-tut"><div class="quest-cont"><h3>Qualè il simbolo ufficiale delle olimpiadi?</h3><button class="reply" id="risposta0" onclick="selezionaRisposta(0)">Una torcia</button><button class="reply" id="risposta1" onclick="selezionaRisposta(1)">5 anelli intrecciati</button><button class="reply" id="risposta2" onclick="selezionaRisposta(2)">Una bandiera</button></div><button class="btn-oli" id="btn-ver" onclick="verificaRisposta()">Verifica</button><p id="output"></p></div>';
+let rispostaSelezionata = -1;
+
+function renderQuiz() {
+    let iframee = document.getElementById('card');
+    let btn0Class = rispostaSelezionata === 0 ? 'reply selected' : 'reply';
+    let btn1Class = rispostaSelezionata === 1 ? 'reply selected' : 'reply';
+    let btn2Class = rispostaSelezionata === 2 ? 'reply selected' : 'reply';
+
+    iframee.innerHTML = `
+        <div class="cont-tut">
+            <div class="quest-cont">
+                <h3>Qual è il simbolo ufficiale delle olimpiadi?</h3>
+                <button class="${btn0Class}" id="risposta0" onclick="selezionaRisposta(0)">Una torcia</button>
+                <button class="${btn1Class}" id="risposta1" onclick="selezionaRisposta(1)">5 anelli intrecciati</button>
+                <button class="${btn2Class}" id="risposta2" onclick="selezionaRisposta(2)">Una bandiera</button>
+            </div>
+            <button class="btn-oli" id="btn-ver" onclick="verificaRisposta()">Verifica</button>
+            <p id="output"></p>
+        </div>`;
 }
-let rispostaSelezionata;
+
+function mostraSezione() {
+    rispostaSelezionata = -1;
+    renderQuiz();
+}
+
 function selezionaRisposta(numeroRisposta) {
-    let btn0 = document.getElementById("risposta0")
-    let btn1 = document.getElementById("risposta1")
-    let btn2 = document.getElementById("risposta2")
-    if (numeroRisposta == 0) {
-        rispostaSelezionata = 0;
-        btn0.style.backgroundColor = " #e0e0e0";
-    }
-    else if (numeroRisposta == 1) {
-        rispostaSelezionata = 1;
-        btn1.style.backgroundColor = " #e0e0e0";
-    }
-    else {
-        rispostaSelezionata = 2;
-        btn2.style.backgroundColor = " #e0e0e0";
-    }
+    rispostaSelezionata = numeroRisposta;
+    renderQuiz();
 }
 function verificaRisposta() {
     let output = document.getElementById("output");
