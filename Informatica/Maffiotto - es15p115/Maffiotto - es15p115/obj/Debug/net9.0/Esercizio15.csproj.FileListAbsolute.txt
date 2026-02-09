@@ -1,0 +1,15 @@
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/bin/Debug/net9.0/Esercizio15
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/bin/Debug/net9.0/Esercizio15.deps.json
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/bin/Debug/net9.0/Esercizio15.runtimeconfig.json
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/bin/Debug/net9.0/Esercizio15.dll
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/bin/Debug/net9.0/Esercizio15.pdb
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/Esercizio15.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/Esercizio15.AssemblyInfoInputs.cache
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/Esercizio15.AssemblyInfo.cs
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/Esercizio15.csproj.CoreCompileInputs.cache
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/Esercizio15.sourcelink.json
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/Esercizio15.dll
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/refint/Esercizio15.dll
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/Esercizio15.pdb
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/Esercizio15.genruntimeconfig.cache
+/Users/andrea/Documents/School/Informatica/Esercizio15/Esercizio15/obj/Debug/net9.0/ref/Esercizio15.dll
