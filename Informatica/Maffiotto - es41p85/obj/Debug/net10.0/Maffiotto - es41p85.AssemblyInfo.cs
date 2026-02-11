@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Maffiotto - es41p85")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cebc06bc9017218d1b1abe4571dde931e28ef9a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f3cff7fdaaf39d54c6037e3c2e82cefb84340f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Maffiotto - es41p85")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Maffiotto - es41p85")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
