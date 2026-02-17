@@ -1,0 +1,15 @@
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/bin/Debug/net10.0/Maffiotto - es47p86
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/bin/Debug/net10.0/Maffiotto - es47p86.deps.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/bin/Debug/net10.0/Maffiotto - es47p86.runtimeconfig.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/bin/Debug/net10.0/Maffiotto - es47p86.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/bin/Debug/net10.0/Maffiotto - es47p86.pdb
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/Maffiotto - es47p86.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/Maffiotto - es47p86.AssemblyInfoInputs.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/Maffiotto - es47p86.AssemblyInfo.cs
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/Maffiotto - es47p86.csproj.CoreCompileInputs.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/Maffiotto - es47p86.sourcelink.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/Maffiotto - es47p86.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/refint/Maffiotto - es47p86.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/Maffiotto - es47p86.pdb
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/Maffiotto - es47p86.genruntimeconfig.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - es47p86/obj/Debug/net10.0/ref/Maffiotto - es47p86.dll

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+section{
+    background-color: white;
+    padding: 30px;
+    margin: 20px 0px;
+    border-radius: 10px;
+
+}
+
+h2{
+    color: var(--color-primary);
+    border-bottom: 3px solid lightblue;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.font-default{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-personalizzato{
+    font-family: 'Pacifico', cursive;
+    color: aqua;
+    font-size: 24px;
+}
+
+.font-fallback{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+:root{
+    --color-primary: #674169;
+    --color-secondary: #678490;
+    --color-accent: #abcdef;
+
+}
