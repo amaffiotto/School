@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{B570EDC4-3E6B-4BC8-B5E1-4E6060A991B1}|Maffiotto - es17p116.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B570EDC4-3E6B-4BC8-B5E1-4E6060A991B1}|Maffiotto - es17p116.csproj|c:\\users\\amaffiotto\\desktop\\school\\informatica\\maffiotto - es17p116\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B570EDC4-3E6B-4BC8-B5E1-4E6060A991B1}|Maffiotto - es17p116.csproj|C:\\Users\\amaffiotto\\Desktop\\School\\Informatica\\Maffiotto - es17p116\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B570EDC4-3E6B-4BC8-B5E1-4E6060A991B1}|Maffiotto - es17p116.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,9 +26,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\amaffiotto\\Desktop\\School\\Informatica\\Maffiotto - es17p116\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\amaffiotto\\Desktop\\School\\Informatica\\Maffiotto - es17p116\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\amaffiotto\\Desktop\\School\\Informatica\\Maffiotto - es17p116\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T12:05:09.488Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\amaffiotto\\Desktop\\School\\Informatica\\Maffiotto - es17p116\\Form1.cs [Progettazione]",
               "RelativeToolTip": "Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T12:03:12.034Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2026-02-17T12:03:12.034Z"
             }
           ]
         }
