@@ -17,12 +17,14 @@ namespace Maffiotto___es17p116
         public Form1()
         {
             InitializeComponent();
+            lstCantanti.Items.AddRange(Cantanti);
+            lstCanzoni.Items.AddRange(Canzoni);
         }
 
         private void btnCerca_Click(object sender, EventArgs e)
         {
             lstRisultato.Items.Clear();
-            string target = txtInput.Text;
+            string target = txtInput.Text ?? "";
             bool found = false;
             for (int i = 0; i < Canzoni.Length; i++)
             {
@@ -37,6 +39,11 @@ namespace Maffiotto___es17p116
             {
                 lstRisultato.Items.Add($"Non sono presenti canzoni di {target}");
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

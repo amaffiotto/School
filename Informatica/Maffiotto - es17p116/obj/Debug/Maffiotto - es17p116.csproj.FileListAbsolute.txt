@@ -8,3 +8,4 @@ C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es17p116\obj\Debug\Ma
 C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es17p116\obj\Debug\Maffiotto - es17p116.csproj.CoreCompileInputs.cache
 C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es17p116\obj\Debug\Maffiotto - es17p116.exe
 C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es17p116\obj\Debug\Maffiotto - es17p116.pdb
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es17p116\obj\Debug\Maffiotto - es17p116.exe.config
