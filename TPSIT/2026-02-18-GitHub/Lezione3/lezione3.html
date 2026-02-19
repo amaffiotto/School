@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione 3 - @-rules, Trasformazioni 3D, Animazioni e CSS Custom Properties</title>
+    <link rel="stylesheet" href="lezione3.css">
+</head>
+<body>
+    <h1>Lezione 3 - CSS Avanzato</h1>
+    <p style="text-align: center; margin-top: -20px; margin-bottom: 30px; font-size: 0.9em; opacity: 0.8;">Prof.ssa Manuela Marchisio</p>
+
+    <!-- ========================================
+         PARTE 1: @-RULES
+    ========================================= -->
+
+    <!-- @FONT-FACE -->
+    <section>
+        <h2>1. @font-face - Font Personalizzati</h2>
+        <p>Con <code>@font-face</code> possiamo usare font personalizzati invece dei font standard del sistema.</p>
+        
+        <div class="font-demo">
+            <p class="font-default">Questo usa il font di default (Arial)</p>
+            <p class="font-custom">Questo usa un font personalizzato da Google Fonts!</p>
+            <p class="font-fallback">Font con fallback: se il custom non carica, usa Arial</p>
+        </div>
+
+        <h3>Esempio @font-face nel CSS:</h3>
+        <div class="code-example">
+            <pre><code>@font-face {
+    font-family: 'MioFont';
+    src: url('font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}</code></pre>
+        </div>
+    </section>
+
+    <!-- @MEDIA QUERIES -->
+    <section>
+        <h2>2. @media - Responsive Design</h2>
+        <p>Le <strong>media queries</strong> permettono di applicare stili diversi in base alla dimensione dello schermo!</p>
+        
+        <h3>Esempio: Box Responsive</h3>
+        <p><em>Ridimensiona la finestra per vedere i cambiamenti!</em></p>
+        <div class="responsive-box">
+            <p class="screen-size">📱 Mobile / 💻 Tablet / 🖥️ Desktop</p>
+            <p>Cambia colore e layout in base alla larghezza!</p>
+        </div>
+
+        <h3>Griglia Responsive</h3>
+        <div class="responsive-grid">
+            <div class="grid-card">Card 1</div>
+            <div class="grid-card">Card 2</div>
+            <div class="grid-card">Card 3</div>
+            <div class="grid-card">Card 4</div>
+        </div>
+        <p><em>Il numero di colonne cambia automaticamente!</em></p>
+
+        <h3>Breakpoint Comuni:</h3>
+        <div class="breakpoints-info">
+            <div class="bp-item">📱 Mobile: max-width: 768px</div>
+            <div class="bp-item">💻 Tablet: 769px - 1024px</div>
+            <div class="bp-item">🖥️ Desktop: min-width: 1025px</div>
+        </div>
+
+        <h3>Esempio @media nel CSS:</h3>
+        <div class="code-example">
+            <pre><code>/* Mobile first */
+.box { width: 100%; }
+
+/* Tablet */
+@media (min-width: 768px) {
+    .box { width: 50%; }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .box { width: 33.33%; }
+}</code></pre>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PARTE 2: TRASFORMAZIONI 3D
+    ========================================= -->
+
+    <section>
+        <h2>3. Transform 3D - Trasformazioni Tridimensionali</h2>
+        <p>Le trasformazioni 3D aggiungono profondità e prospettiva agli elementi! 🎲</p>
+
+        <h3>rotateX() - Rotazione sull'asse X</h3>
+        <p><em>Passa il mouse per vedere l'effetto!</em></p>
+        <div class="transform-3d-container">
+            <div class="box-3d rotatex">rotateX(45deg)</div>
+        </div>
+
+        <h3>rotateY() - Rotazione sull'asse Y</h3>
+        <div class="transform-3d-container">
+            <div class="box-3d rotatey">rotateY(45deg)</div>
+        </div>
+
+        <h3>rotateZ() - Rotazione sull'asse Z</h3>
+        <div class="transform-3d-container">
+            <div class="box-3d rotatez">rotateZ(45deg)</div>
+        </div>
+
+        <h3>translateZ() - Movimento in profondità</h3>
+        <div class="transform-3d-container">
+            <div class="box-3d translatez">translateZ(50px)</div>
+        </div>
+
+      
+    </section>
+
+    <!-- ========================================
+         PARTE 3: ANIMAZIONI CON @KEYFRAMES
+    ========================================= -->
+
+    <section>
+        <h2>4. @keyframes - Animazioni CSS</h2>
+        <p>Con <code>@keyframes</code> creiamo animazioni complesse senza JavaScript!</p>
+
+        <h3>Animazione: Fade In</h3>
+        <div class="animation-demo">
+            <div class="box-anim fade-in">Appaio gradualmente</div>
+        </div>
+
+        <h3>Animazione: Slide In</h3>
+        <div class="animation-demo">
+            <div class="box-anim slide-in">Arrivo da sinistra</div>
+        </div>
+
+        <h3>Animazione: Bounce</h3>
+        <div class="animation-demo">
+            <div class="box-anim bounce">Rimbalzo!</div>
+        </div>
+
+        <h3>Animazione: Pulse (infinita)</h3>
+        <div class="animation-demo">
+            <div class="box-anim pulse">Pulso continuamente</div>
+        </div>
+
+        <h3>Animazione: Rotate (infinita)</h3>
+        <div class="animation-demo">
+            <div class="box-anim rotate-infinite">🔄 Giro!</div>
+        </div>
+
+        <h3>Animazione: Loading Spinner</h3>
+        <div class="animation-demo">
+            <div class="spinner"></div>
+        </div>
+
+        <h3>Animazione: Typing Effect</h3>
+        <div class="animation-demo">
+            <p class="typing">Questo testo appare lettera per lettera...</p>
+        </div>
+
+        <h3>Animazione Complessa: Ball Bouncing</h3>
+        <div class="ball-container">
+            <div class="ball"></div>
+        </div>
+
+        <h3>Esempio @keyframes nel CSS:</h3>
+        <div class="code-example">
+            <pre><code>@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.box {
+    animation: slideIn 1s ease-out;
+}</code></pre>
+        </div>
+
+        <h3>Proprietà animation:</h3>
+        <div class="animation-properties">
+            <div class="prop-item"><strong>animation-name:</strong> nome del @keyframes</div>
+            <div class="prop-item"><strong>animation-duration:</strong> durata (es. 2s)</div>
+            <div class="prop-item"><strong>animation-timing-function:</strong> ease, linear, ease-in...</div>
+            <div class="prop-item"><strong>animation-delay:</strong> ritardo prima di iniziare</div>
+            <div class="prop-item"><strong>animation-iteration-count:</strong> 1, 2, infinite...</div>
+            <div class="prop-item"><strong>animation-direction:</strong> normal, reverse, alternate</div>
+            <div class="prop-item"><strong>animation-fill-mode:</strong> forwards, backwards, both</div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PARTE 4: CSS CUSTOM PROPERTIES (VARIABILI)
+    ========================================= -->
+
+    <section>
+        <h2>5. CSS Custom Properties - Variabili CSS</h2>
+        <p>Le <strong>variabili CSS</strong> permettono di riutilizzare valori e creare temi dinamici!</p>
+
+        <h3>Sintassi Base</h3>
+        <div class="code-example">
+            <pre><code>/* Definizione */
+:root {
+    --colore-primario: #3498db;
+    --padding-base: 20px;
+    --font-size-grande: 24px;
+}
+
+/* Utilizzo */
+.box {
+    color: var(--colore-primario);
+    padding: var(--padding-base);
+    font-size: var(--font-size-grande);
+}</code></pre>
+        </div>
+
+        <h3>Esempio Pratico: Theme</h3>
+        <div class="theme-demo">
+            <div class="card-theme">
+                <h4>Card con Variabili CSS</h4>
+                <p>Questo card usa le variabili CSS definite in :root</p>
+                <button class="btn-theme">Bottone</button>
+            </div>
+        </div>
+
+        <h3>Variabili con Fallback</h3>
+        <div class="variable-demo">
+            <div class="box-var fallback">Usa fallback se variabile non esiste</div>
+        </div>
+
+        <h3>Tema Chiaro/Scuro</h3>
+        <p><em>Le variabili permettono di cambiare facilmente i colori di tutto il sito!</em></p>
+        <div class="theme-switcher">
+            <div class="theme-box light-theme">
+                <h4>☀️ Tema Chiaro</h4>
+                <p>Background chiaro, testo scuro</p>
+            </div>
+            <div class="theme-box dark-theme">
+                <h4>🌙 Tema Scuro</h4>
+                <p>Background scuro, testo chiaro</p>
+            </div>
+        </div>
+
+        <h3>Animazione con Variabili</h3>
+        <p><em>Possiamo usare variabili anche nelle animazioni!</em></p>
+        <div class="color-animation">
+            <div class="box-color-anim">Colore animato con variabili CSS!</div>
+        </div>
+
+        <h3>Calcoli con calc() e Variabili</h3>
+        <div class="calc-demo">
+            <div class="box-calc box-calc-1">width: var(--base-width)</div>
+            <div class="box-calc box-calc-2">width: calc(var(--base-width) * 2)</div>
+            <div class="box-calc box-calc-3">width: calc(var(--base-width) * 3)</div>
+        </div>
+
+        <h3>Vantaggi delle Variabili CSS:</h3>
+        <div class="advantages">
+            <div class="adv-item">Manutenzione più facile</div>
+            <div class="adv-item">Cambio tema dinamico</div>
+            <div class="adv-item">Riutilizzo di valori</div>
+            <div class="adv-item">Nessun preprocessore necessario</div>
+            <div class="adv-item">Possono essere modificate con JavaScript</div>
+            <div class="adv-item">Ereditarietà e scope</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Hai imparato: @font-face, @media queries, Transform 3D, @keyframes e CSS Variables!</p>
+        <p style="margin-top: 15px;"><a href="bonus_esercizio.html" style="color: #2ecc71; text-decoration: none; font-weight: bold;">🎁 Vai all'Esercizio Bonus →</a></p>
+    </footer>
+=======
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione 3</title>
+    <link rel="stylesheet" href="lezione3.css">
+</head>
+<body>
+    <h1>Lezione 3 - CSS AVANZATO</h1>
+    <h2>RULES</h2>
+    <section>
+        <h2>@font-face - FONT PERSONALIZZATI</h2>
+        <div class="font-demo">
+            <p class="font-default">Default</p>
+            <p class="font-personalizzato">Personalizzato</p>
+            <p class="font-fallback">Fallback</p>
+        </div>
+    </section>
+>>>>>>> 366b212b8f4daf9ddf7b420f6410bef112e5d464
+</body>
+</html>
