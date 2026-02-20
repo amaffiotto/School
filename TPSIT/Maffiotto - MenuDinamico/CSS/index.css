@@ -1,0 +1,36 @@
+#submenu-citta{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  list-style: none;
+  padding: 10px;
+  width: 5%;
+  border: black solid 1px;
+}
+
+.dropdown:hover #submenu-citta{
+    display: block;
+}
+ul{
+    list-style: none;
+    background-color: #676767;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+    padding: 10px;
+}
+
+#submenu-citta>li{
+    border: black solid 1px;
+}
+
+li:hover{
+    background-color: #AAAAAA;
+}
+
+a{
+    color: white;
+}
+
+a:visited{color: white;}
