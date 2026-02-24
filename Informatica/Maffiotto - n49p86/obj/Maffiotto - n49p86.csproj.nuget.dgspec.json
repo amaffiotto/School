@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andrea/Documents/School/Informatica/Maffiotto - es48p86/Maffiotto - es48p86.csproj": {}
+    "/Users/andrea/Documents/School/Informatica/Maffiotto - n49p86/Maffiotto - n49p86.csproj": {}
   },
   "projects": {
-    "/Users/andrea/Documents/School/Informatica/Maffiotto - es48p86/Maffiotto - es48p86.csproj": {
+    "/Users/andrea/Documents/School/Informatica/Maffiotto - n49p86/Maffiotto - n49p86.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrea/Documents/School/Informatica/Maffiotto - es48p86/Maffiotto - es48p86.csproj",
-        "projectName": "Maffiotto - es48p86",
-        "projectPath": "/Users/andrea/Documents/School/Informatica/Maffiotto - es48p86/Maffiotto - es48p86.csproj",
+        "projectUniqueName": "/Users/andrea/Documents/School/Informatica/Maffiotto - n49p86/Maffiotto - n49p86.csproj",
+        "projectName": "Maffiotto - n49p86",
+        "projectPath": "/Users/andrea/Documents/School/Informatica/Maffiotto - n49p86/Maffiotto - n49p86.csproj",
         "packagesPath": "/Users/andrea/.nuget/packages/",
-        "outputPath": "/Users/andrea/Documents/School/Informatica/Maffiotto - es48p86/obj/",
+        "outputPath": "/Users/andrea/Documents/School/Informatica/Maffiotto - n49p86/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andrea/.nuget/NuGet/NuGet.Config"

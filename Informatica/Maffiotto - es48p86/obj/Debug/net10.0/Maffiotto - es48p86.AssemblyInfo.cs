@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Maffiotto - es48p86")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f88937f5564c513c66dff8d1f6e5f70b00db6c66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d4b34593560a5f799a0f6a3ddc428299d8b93b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Maffiotto - es48p86")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Maffiotto - es48p86")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
