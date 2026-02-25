@@ -20,3 +20,4 @@ C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es23p116\obj\Debug\Ma
 C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es23p116\obj\Debug\Maffiotto - es22p116.csproj.CoreCompileInputs.cache
 C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es23p116\obj\Debug\Maffiotto - es22p116.exe
 C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es23p116\obj\Debug\Maffiotto - es22p116.pdb
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es23p116\obj\Debug\Maffiotto___es23p116.Form1.resources
