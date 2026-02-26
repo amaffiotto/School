@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andrea/Documents/School/Informatica/Maffiotto - es49p86/Maffiotto - n49p86.csproj": {}
+    "/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/Maffiotto - es49 Ottimizato.csproj": {}
   },
   "projects": {
-    "/Users/andrea/Documents/School/Informatica/Maffiotto - es49p86/Maffiotto - n49p86.csproj": {
+    "/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/Maffiotto - es49 Ottimizato.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrea/Documents/School/Informatica/Maffiotto - es49p86/Maffiotto - n49p86.csproj",
-        "projectName": "Maffiotto - n49p86",
-        "projectPath": "/Users/andrea/Documents/School/Informatica/Maffiotto - es49p86/Maffiotto - n49p86.csproj",
+        "projectUniqueName": "/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/Maffiotto - es49 Ottimizato.csproj",
+        "projectName": "Maffiotto - es49 Ottimizato",
+        "projectPath": "/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/Maffiotto - es49 Ottimizato.csproj",
         "packagesPath": "/Users/andrea/.nuget/packages/",
-        "outputPath": "/Users/andrea/Documents/School/Informatica/Maffiotto - es49p86/obj/",
+        "outputPath": "/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andrea/.nuget/NuGet/NuGet.Config"

@@ -1,0 +1,15 @@
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/bin/Debug/net10.0/Maffiotto - es49 Ottimizato
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/bin/Debug/net10.0/Maffiotto - es49 Ottimizato.deps.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/bin/Debug/net10.0/Maffiotto - es49 Ottimizato.runtimeconfig.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/bin/Debug/net10.0/Maffiotto - es49 Ottimizato.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/bin/Debug/net10.0/Maffiotto - es49 Ottimizato.pdb
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/Maffiotto - es49 Ottimizato.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/Maffiotto - es49 Ottimizato.AssemblyInfoInputs.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/Maffiotto - es49 Ottimizato.AssemblyInfo.cs
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/Maffiotto - es49 Ottimizato.csproj.CoreCompileInputs.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/Maffiotto - es49 Ottimizato.sourcelink.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/Maffiotto - es49 Ottimizato.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/refint/Maffiotto - es49 Ottimizato.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/Maffiotto - es49 Ottimizato.pdb
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/Maffiotto - es49 Ottimizato.genruntimeconfig.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - es49 Ottimizato/obj/Debug/net10.0/ref/Maffiotto - es49 Ottimizato.dll
