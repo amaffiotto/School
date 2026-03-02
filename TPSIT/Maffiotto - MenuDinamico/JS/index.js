@@ -32,3 +32,13 @@ function mostraPrimeQuattro() {
   let ridotto = citta.slice(0, 4); 
   renderMenu(ridotto);             
 }
+
+/* 
+  pop
+  push
+  indexof
+  shift
+  unshift
+  splice
+  slice
+*/
