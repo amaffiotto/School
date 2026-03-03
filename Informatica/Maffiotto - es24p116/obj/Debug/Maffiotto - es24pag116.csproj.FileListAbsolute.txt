@@ -1,0 +1,11 @@
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\bin\Debug\Maffiotto - es24pag116.exe.config
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\bin\Debug\Maffiotto - es24pag116.exe
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\bin\Debug\Maffiotto - es24pag116.pdb
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\obj\Debug\Maffiotto - es24pag116.csproj.AssemblyReference.cache
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\obj\Debug\Maffiotto___es24pag116.Form1.resources
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\obj\Debug\Maffiotto___es24pag116.Properties.Resources.resources
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\obj\Debug\Maffiotto - es24pag116.csproj.GenerateResource.cache
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\obj\Debug\Maffiotto - es24pag116.csproj.CoreCompileInputs.cache
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\obj\Debug\Maffiotto - es24pag116.exe
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\obj\Debug\Maffiotto - es24pag116.pdb
+C:\Users\amaffiotto\Desktop\Maffiotto - es24pag116\obj\Debug\Maffiotto - es24pag116.exe.config
