@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maffiotto - es24pag116", "Maffiotto - es24pag116.csproj", "{5261E0B7-C4EF-4E64-B132-10E23A72E7C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5261E0B7-C4EF-4E64-B132-10E23A72E7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5261E0B7-C4EF-4E64-B132-10E23A72E7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5261E0B7-C4EF-4E64-B132-10E23A72E7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5261E0B7-C4EF-4E64-B132-10E23A72E7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88894CF2-3976-4958-9B92-7C12896F350E}
+	EndGlobalSection
+EndGlobal
