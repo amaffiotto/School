@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <div class="game-screen">
+            <div class="header menu-elm">
+                <h1>Briscola - Io vs Computer</h1>
+                <div id="container-cont-turno">
+                    <p id="cont-turno">Turno: -</p>
+                </div>
+            </div>
+            <div class="container-punteggi">
+                <div class="punteggio-cpu menu-elm">
+                    <h2>Computer</h2>
+                    <h2 id="h2-punti-cpu">Punti: 0</h2>
+                </div>
+    
+                <div class="punteggio-usr menu-elm">
+                    <h2>Tu</h2>
+                    <h2 id="h2-punti-usr">Punti: 0</h2>
+                </div>
+            </div>
+            <div class="container-tavolo">
+                <div class="mano-cpu menu-elm">
+                    <h3>Mano del computer</h3>
+                    <div id="carta-cpu-1" class="carta carta-cpu">?</div>
+                    <div id="carta-cpu-2" class="carta carta-cpu">?</div>
+                    <div id="carta-cpu-3" class="carta carta-cpu">?</div>
+                </div>
+    
+                <div class="tavolo menu-elm">
+                    <h3>Tavolo</h3>
+                    <div class="container-interno-tavolo">
+                        <div class="zona-mazzo">
+                            <h3>Briscola</h3>
+                            <div class="carta carta-briscola">
+                                briscola
+                            </div>
+                            <p>Mazzo: 40 carte</p>
+                        </div>
+                        <div class="tavolo-cpu dot-elm">
+                            <p>computer</p>
+                            <div class="carta">
+                                Vuoto
+                            </div>
+                        </div>
+        
+                        <div class="tavolo-usr dot-elm">
+                            <p>Tu</p>
+                            <div class="carta">
+                                Vuoto
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nuovo-cont dot-elm">
+                        <p>Premi "Nuova partita" per iniziare.</p>
+                    </div>
+                </div>
+                <div class="mano-usr menu-elm">
+                    <h3>La tua mano</h3>
+                    <div class="carta carta-usr" id="carta-usr-1">?</div>
+                    <div class="carta carta-usr" id="carta-usr-2">?</div>
+                    <div class="carta carta-usr" id="carta-usr-3">?</div>
+                </div>
+            </div>
+
+            <div class="newgame-container menu-elm">
+                <button class="btn">Nuova partita</button>
+            </div>
+    </div>
+</body>
+</html>

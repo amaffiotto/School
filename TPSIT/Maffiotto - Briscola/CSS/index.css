@@ -1,0 +1,169 @@
+div {
+    padding: 4px;
+    margin: 4px;
+}
+
+body{
+    background-color: rgb(4, 128, 43);
+}
+
+.menu-elm{
+    border: solid grey 2px;
+    border-radius: 20px;
+    background-color: rgb(0, 97, 0);
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98.2%;
+    height: fit-content;
+}
+#container-cont-turno{
+    background-color: rgba(192, 190, 190, 0.467);
+    border-radius: 15px;
+    padding: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.punteggio-cpu{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.punteggio-usr{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-punteggi{
+    display: flex;
+}
+
+.container-tavolo{
+    display: flex;
+}
+
+.mano-cpu{
+    width: 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tavolo{
+    width: 60%;
+    height: 230px;
+    background-color: rgb(7, 115, 7);
+}
+
+.mano-usr{
+    width: 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newgame-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tavolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.container-interno-tavolo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.carta{
+    height: 130px;
+    width: 70px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: dotted grey 2px;
+
+}
+
+.carta:hover{
+    scale: 1.05;
+}
+
+.tavolo-usr{
+    width: 300px;
+}
+
+.tavolo-cpu{
+    width: 300px;
+}
+
+#h2-punti-cpu{
+    color: orange;
+}
+
+#h2-punti-usr{
+    color: orange;
+}
+
+.dot-elm{
+    border: 3px dotted grey;
+    border-radius: 20px;
+    background-color: rgb(27, 106, 27);
+}
+
+.nuovo-cont{
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.btn{
+    height: 40px;
+    border-radius: 8px;
+    width: 130px;
+}
+
+.btn:hover{
+    background-color: rgb(194, 194, 194);
+    scale: 1.1;
+}
+
+.carta-briscola{
+    border: orange dotted 3px;
+}
+
+.carta-cpu{
+  background: repeating-linear-gradient(-45deg,#7ab3e0,#7ab3e0 10px,#4a7fc1 10px,#4a7fc1 20px);
+  border-radius: 12px;
+  border: 2px dashed #3a6fa8;
+}
