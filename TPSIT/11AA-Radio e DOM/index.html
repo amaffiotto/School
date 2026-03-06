@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova radio</title>
+</head>
+<body>
+    <h1>Prova radio button</h1>
+    <input type="radio" name="radio" id="radio1" value="aaa" class="radio">
+    <input type="radio" name="radio" id="radio2" value="bbb" class="radio">
+    <input type="radio" name="radio" id="radio3" value="ddd" class="radio">
+    <button onclick="leggiScelta()">zizi</button>
+    <div id="risultato">
+
+    <!--
+
+    Il brwoser:
+    -legge codice html
+    -lo analizza
+    -costruisce in memoria uno schema ad albero
+
+    DOCUMENT OBJECT MODEL (DOM)
+    modello ad oggetti organizzato ad albero
+
+    ogni tag html è un nodo dell'albero
+    la radcie dell'albero è html
+
+    -window: rappresenta la finestra del browser
+    -document: il documento html
+
+    Cosa possiamo fare con il DOM?
+    Interagire tramite il documento:
+    -cercare elementi es: getElementById("");
+    -leggere e modificare contenuto 
+    -creare nuovi nodi (nuove parti html)
+
+    SELEZIONE ELEMENTI
+    -getElementById("idElemento");
+    -getElementByName("nameElemento"); restituisce un solo elemento
+    -getElementsByName("nameElemento"); restituisce un array di elementi
+    -querySelector(...) seleziona per selettore CSS (id, classe, tag) un solo elemento
+        es.
+        <h3 class="titolo">Scegli il tuo linguaggio preferito</h3>
+        document.querySelector(".titolo") se non trova niente restituisce NULL
+    -querySelectorAll(...) selezioni per selettore CSS ma cerca più elementi
+        es.
+        <input type="radio" name="radio" id="radio1" value="aaa" class="radio">
+        <input type="radio" name="radio" id="radio2" value="bbb" class="radio">
+        <input type="radio" name="radio" id="radio3" value="ddd" class="radio">
+        let q = document.querySelectorAll(".radio")
+        q è una lista di nodi statica: non si aggiorna continuamente ma solo a richiamo
+
+        Iterazione sugli elementi
+        -for
+        -forof
+        -forin
+        -foreach
+
+    CAMBIARE E MODIFICARE ELEMENTI DEL DOM
+    -cambiare il testo
+    -cambiare alcuni attributi
+    -cambiare gli stili
+
+    TESTO
+    -textContent    elemento.textContent = "Nuovo testo";
+    -innerHTML      elemento.innerHTML = "<div> Nuovo testo </div>";
+
+    STILI
+    -style
+        es. 
+        let elemento = document.getElementById("titoloH")
+        elemento.style.backgroundColor = "yellow"
+
+    -->
+    </div>
+
+    <script>
+        
+        function leggiScelta(){
+            let radios = document.getElementsByName("radio");
+            let scelta = "";
+
+            for(let i = 0; i < radios.length;i++)
+            {
+                if(radios[i].checked){
+                    scelta = radios[i].value;
+                }
+            }
+
+            if(scelta == ""){
+                document.getElementById("risultato").innerHTML = "non hai scelto niente"
+            }
+            else{
+                document.getElementById("risultato").innerHTML = "hai scelto " + scelta;
+            }
+        }
+
+    </script>
+</body>
+</html>
