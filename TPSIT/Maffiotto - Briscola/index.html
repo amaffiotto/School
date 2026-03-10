@@ -38,21 +38,21 @@
                     <div class="container-interno-tavolo">
                         <div class="zona-mazzo">
                             <h3>Briscola</h3>
-                            <div class="carta carta-briscola">
+                            <div class="carta carta-briscola" id="carta-briscola">
                                 briscola
                             </div>
                             <p>Mazzo: 40 carte</p>
                         </div>
                         <div class="tavolo-cpu dot-elm">
                             <p>Computer</p>
-                            <div class="carta">
+                            <div class="carta" id="carta-tavolo-cpu">
                                 Vuoto
                             </div>
                         </div>
         
                         <div class="tavolo-usr dot-elm">
                             <p>Tu</p>
-                            <div class="carta">
+                            <div class="carta" id="carta-tavolo-usr">
                                 Vuoto
                             </div>
                         </div>
@@ -63,15 +63,16 @@
                 </div>
                 <div class="mano-usr menu-elm">
                     <h3>La tua mano</h3>
-                    <div class="carta carta-usr" id="carta-usr-1">?</div>
-                    <div class="carta carta-usr" id="carta-usr-2">?</div>
-                    <div class="carta carta-usr" id="carta-usr-3">?</div>
+                    <div class="carta carta-usr" id="carta-usr-1" onclick="GiocaCarta(0)">?</div>
+                    <div class="carta carta-usr" id="carta-usr-2" onclick="GiocaCarta(1)">?</div>
+                    <div class="carta carta-usr" id="carta-usr-3" onclick="GiocaCarta(2)">?</div>
                 </div>
             </div>
 
             <div class="newgame-container menu-elm">
-                <button class="btn">Nuova partita</button>
+                <button class="btn" onclick="NuovaPartita()">Nuova partita</button>
             </div>
     </div>
+    <script src="./JS/index.js"></script>
 </body>
 </html>
