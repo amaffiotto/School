@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maffiotto - es53p86", "Maffiotto - es53p86.csproj", "{42173FD4-DE39-4F4D-9E4B-447A7D0ECE3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42173FD4-DE39-4F4D-9E4B-447A7D0ECE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42173FD4-DE39-4F4D-9E4B-447A7D0ECE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42173FD4-DE39-4F4D-9E4B-447A7D0ECE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42173FD4-DE39-4F4D-9E4B-447A7D0ECE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
