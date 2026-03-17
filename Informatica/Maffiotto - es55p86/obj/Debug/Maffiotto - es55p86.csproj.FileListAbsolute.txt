@@ -1,0 +1,11 @@
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\bin\Debug\Maffiotto - es55p86.exe.config
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\bin\Debug\Maffiotto - es55p86.exe
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\bin\Debug\Maffiotto - es55p86.pdb
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\obj\Debug\Maffiotto - es55p86.csproj.AssemblyReference.cache
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\obj\Debug\Maffiotto___es55p86.Form1.resources
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\obj\Debug\Maffiotto___es55p86.Properties.Resources.resources
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\obj\Debug\Maffiotto - es55p86.csproj.GenerateResource.cache
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\obj\Debug\Maffiotto - es55p86.csproj.CoreCompileInputs.cache
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\obj\Debug\Maffiotto - es55p86.exe
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\obj\Debug\Maffiotto - es55p86.pdb
+C:\Users\amaffiotto\Desktop\School\Informatica\Maffiotto - es55p86\obj\Debug\Maffiotto - es55p86.exe.config
