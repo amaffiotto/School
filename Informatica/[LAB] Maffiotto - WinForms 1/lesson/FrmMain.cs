@@ -80,7 +80,7 @@ namespace lesson
                 // perso
                 MessageBox.Show("Hai perso", "Memory", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 GameOver();
-
+                
                 // tutte le picturebox del form (modo 1)
                 // calcola dal nome
                 for (int i = 0; i < GRID_SIZE; i++)
