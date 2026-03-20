@@ -20,6 +20,7 @@ let puntiCpu = 0;
 let puntiUsr = 0;
 let cartaGiocataCpu;
 let CartaGiocataUtente;
+let carteUscite = Array(40);
 
 
 function start(){
@@ -36,4 +37,11 @@ function resetStatoIniziale(){
     cpuPoints.textContent = puntiCpu
     cartaGiocataCpu = null;
     CartaGiocataUtente = null;
+    deckCount.textContent = "40"
+}
+
+function mischiaMazzo(){
+    carteUscite.forEach(element => {
+        element = -1;
+    });
 }
