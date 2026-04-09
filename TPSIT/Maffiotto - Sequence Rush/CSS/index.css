@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    background-color: #fdfaf6;
+    color: #22150c;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    background-color: #22150c;
+    color: #e5ccb4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #d49f6b;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.intestazione-destra p {
+    font-size: 0.9rem;
+}
+
+.contenitore {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.area-gioco {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.barra-stato,
+.barra-tempo,
+.istruzioni,
+.risultato-round {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.mostra-sequenza {
+    display: flex;
+    border: 3px solid #22150c;
+    background-color: #fdfdfd;
+    padding: 10px;
+    gap: 10px;
+    min-height: 40px;
+}
+
+.box-sequenza {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #888;
+    background-color: #fff;
+}
+
+.box-sequenza.attivo {
+    background-color: #e0e0e0;
+    color: #22150c;
+    border-color: #22150c;
+}
+
+.griglia-carte {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 140px;
+    max-height: 400px;
+    gap: 10px;
+}
+
+.carta {
+    background-color: #fdfdfd;
+    border: 2px solid #8c8c8c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.carta:hover {
+    background-color: #f3f3f3;
+    border-color: #22150c;
+}
+
+.carta:active {
+    transform: scale(0.96);
+}
+
+.carta.evidenziata {
+    background-color: #fff3cd;
+    border-color: #ffc107;
+}
+
+.carta .icona {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.carta .etichetta {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #a0a0a0;
+}
+
+.area-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #fffcf8;
+    padding: 30px;
+    box-sizing: border-box;
+    border-left: 2px solid #22150c;
+}
+
+.gruppo-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.etichetta-info {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.valore-info {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.valore-info.grande {
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.vite {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+button#bottone-inizio {
+    background-color: #22150c;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity 0.2s, background-color 0.2s;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button#bottone-inizio:hover {
+    background-color: #3f2a1a;
+}
+
+button#bottone-inizio:disabled {
+    background-color: #aaaaaa;
+    cursor: not-allowed;
+}

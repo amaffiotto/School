@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequence Rush</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="intestazione-sinistra">
+            <h1>Sequence Rush</h1>
+        </div>
+        <div class="intestazione-destra">
+            <p>Esercitazione JS - Simon Says</p>
+        </div>
+    </header>
+
+    <main class="contenitore">
+        <section class="area-gioco">
+            <div class="barra-stato">
+                <p id="testo-round">Sequenza da riprodurre - Round <b id="numero-round">-</b> -</p>
+            </div>
+
+            <div class="mostra-sequenza" id="mostra-sequenza">
+                <div class="box-sequenza">?</div>
+                <div class="box-sequenza">?</div>
+                <div class="box-sequenza">?</div>
+                <div class="box-sequenza">?</div>
+                <div class="box-sequenza">?</div>
+                <div class="box-sequenza">?</div>
+                <div class="box-sequenza">?</div>
+                <div class="box-sequenza">?</div>
+            </div>
+
+            <div class="barra-tempo">
+                <p>Tempo rimasto <b id="timer">-</b></p>
+            </div>
+
+            <div class="istruzioni">
+                <p>Premi i simboli nell'ordine corretto</p>
+            </div>
+
+            <div class="griglia-carte">
+                <div class="carta">
+                    <div class="icona">💻</div>
+                    <div class="etichetta">CPU</div>
+                </div>
+                <div class="carta">
+                    <div class="icona">🌐</div>
+                    <div class="etichetta">NET</div>
+                </div>
+                <div class="carta">
+                    <div class="icona">🗄️</div>
+                    <div class="etichetta">DB</div>
+                </div>
+                <div class="carta">
+                    <div class="icona">🐛</div>
+                    <div class="etichetta">BUG</div>
+                </div>
+                <div class="carta">
+                    <div class="icona">🔑</div>
+                    <div class="etichetta">KEY</div>
+                </div>
+                <div class="carta">
+                    <div class="icona">📦</div>
+                    <div class="etichetta">PKG</div>
+                </div>
+                <div class="carta">
+                    <div class="icona">🔒</div>
+                    <div class="etichetta">SEC</div>
+                </div>
+                <div class="carta">
+                    <div class="icona">☁️</div>
+                    <div class="etichetta">CLD</div>
+                </div>
+            </div>
+
+            <div class="risultato-round">
+                <p>Risultato del round: <b id="testo-risultato">-</b></p>
+            </div>
+        </section>
+
+        <section class="area-info">
+            <div class="gruppo-info">
+                <p class="etichetta-info">Punteggio</p>
+                <p class="valore-info grande" id="punteggio">0</p>
+            </div>
+            <div class="gruppo-info">
+                <p class="etichetta-info">Lunghezza sequenza</p>
+                <p class="valore-info" id="lunghezza-sequenza">-</p>
+            </div>
+            <div class="gruppo-info">
+                <p class="etichetta-info">Vite</p>
+                <p class="valore-info vite" id="vite">🖤🖤🖤</p>
+            </div>
+
+            <button id="bottone-inizio">▶ INIZIA PARTITA</button>
+        </section>
+    </main>
+</body>
+
+</html>

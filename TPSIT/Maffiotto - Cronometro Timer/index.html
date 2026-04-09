@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro & Timer</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Cronometro</h1>
+
+        <div id="display-cronometro" class="display">00:00:00</div>
+
+        <div class="btn-group">
+            <button onclick="avviaCronometro()">Avvia</button>
+            <button onclick="fermaCronometro()">Ferma</button>
+            <button onclick="resetCronometro()">Reset</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h1>Timer</h1>
+
+        <div class="input-group">
+            <div class="input-campo">
+                <label for="inp-ore">Ore</label>
+                <input type="number" id="inp-ore" min="0" max="23" value="0">
+            </div>
+            <div class="input-campo">
+                <label for="inp-minuti">Minuti</label>
+                <input type="number" id="inp-minuti" min="0" max="59" value="0">
+            </div>
+            <div class="input-campo">
+                <label for="inp-secondi">Secondi</label>
+                <input type="number" id="inp-secondi" min="0" max="59" value="0">
+            </div>
+        </div>
+
+        <div id="display-timer" class="display">00:00:00</div>
+
+        <div class="btn-group">
+            <button onclick="avviaTimer()">Avvia</button>
+            <button onclick="fermaTimer()">Ferma</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+
+        <p id="messaggio-timer"></p>
+    </div>
+
+    <script src="./JS/index.js"></script>
+</body>
+</html>
