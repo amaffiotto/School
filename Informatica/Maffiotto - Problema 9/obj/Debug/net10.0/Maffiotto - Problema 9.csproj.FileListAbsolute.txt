@@ -1,0 +1,15 @@
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/bin/Debug/net10.0/Maffiotto - Problema 9
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/bin/Debug/net10.0/Maffiotto - Problema 9.deps.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/bin/Debug/net10.0/Maffiotto - Problema 9.runtimeconfig.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/bin/Debug/net10.0/Maffiotto - Problema 9.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/bin/Debug/net10.0/Maffiotto - Problema 9.pdb
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/Maffiotto - Problema 9.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/Maffiotto - Problema 9.AssemblyInfoInputs.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/Maffiotto - Problema 9.AssemblyInfo.cs
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/Maffiotto - Problema 9.csproj.CoreCompileInputs.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/Maffiotto - Problema 9.sourcelink.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/Maffiotto - Problema 9.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/refint/Maffiotto - Problema 9.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/Maffiotto - Problema 9.pdb
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/Maffiotto - Problema 9.genruntimeconfig.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - Problema 9/obj/Debug/net10.0/ref/Maffiotto - Problema 9.dll

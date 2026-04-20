@@ -1,0 +1,57 @@
+.semaforo{
+    height: 930px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #000;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.rosso{
+    height: 300px;
+    width: 300px;
+    border-radius: 3000px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.verde{
+    height: 300px;
+    width: 300px;
+    border-radius: 3000px;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.giallo{
+    height: 300px;
+    width: 300px;
+    border-radius: 3000px;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+h2{
+    margin: 0;
+}
+
+.r-acc{
+    box-shadow: 0 0 40px 20px red;
+}
+
+.v-acc{
+    box-shadow: 0 0 40px 20px green;
+}
+
+.g-acc{
+    box-shadow: 0 0 40px 20px yellow;
+}

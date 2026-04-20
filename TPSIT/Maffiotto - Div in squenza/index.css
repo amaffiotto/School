@@ -1,0 +1,22 @@
+.casella{
+    background: rgb(202, 202, 202);
+    border: solid 3px black;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+}
+h2{
+    align-self: center;
+    justify-self: center;
+}
+.accesa{
+    background: rgb(255, 45, 45);
+}
+.prossima{
+    background: rgb(255, 141, 141);
+}
+#int-giri{
+    align-self: normal;
+    justify-self: normal;
+}

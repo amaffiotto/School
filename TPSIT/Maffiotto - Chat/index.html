@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Chat</title>
+</head>
+<body>
+    <main>
+        <div id="containers">
+            <h1>Chat</h1>
+            <div id="chat-container">
+                <div id="chat"></div>
+                
+                <div id="controls">
+                    <input type="text" id="testo" placeholder="Scrivi messaggio">
+                    <button onclick="invia(1)" id="btn1" class="btn">ᯓ➤</button>
+                    <button onclick="invia(2)" id="btn2" class="btn">ᯓ➤</button>
+                    <button onclick="ModificaUltimoMessaggio()" id="modMess" class="btn">Modifica Messaggio</button>
+                </div>
+                <div id="emoji-controls">
+                    <button onclick="metti('❤️')" class="btn emoji-btn">❤️</button>
+                    <button onclick="metti('😂')" class="btn emoji-btn">😂</button>
+                    <button onclick="metti('👍')" class="btn emoji-btn">👍</button>
+                    <button onclick="metti('😢')" class="btn emoji-btn">😢</button>
+                    <button onclick="togliEmoji()" class="btn" id="btnTogliEmoji">Togli emoji</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="JS/index.js"></script>
+</body>
+</html>

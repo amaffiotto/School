@@ -1,0 +1,15 @@
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/bin/Debug/net10.0/Maffiotto - pag173es1
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/bin/Debug/net10.0/Maffiotto - pag173es1.deps.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/bin/Debug/net10.0/Maffiotto - pag173es1.runtimeconfig.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/bin/Debug/net10.0/Maffiotto - pag173es1.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/bin/Debug/net10.0/Maffiotto - pag173es1.pdb
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/Maffiotto - pag173es1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/Maffiotto - pag173es1.AssemblyInfoInputs.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/Maffiotto - pag173es1.AssemblyInfo.cs
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/Maffiotto - pag173es1.csproj.CoreCompileInputs.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/Maffiotto - pag173es1.sourcelink.json
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/Maffiotto - pag173es1.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/refint/Maffiotto - pag173es1.dll
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/Maffiotto - pag173es1.pdb
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/Maffiotto - pag173es1.genruntimeconfig.cache
+/Users/andrea/Documents/School/Informatica/Maffiotto - pag173es1/obj/Debug/net10.0/ref/Maffiotto - pag173es1.dll

@@ -187,3 +187,12 @@ button#bottone-inizio:disabled {
     background-color: #aaaaaa;
     cursor: not-allowed;
 }
+
+.griglia-carte.disabledButtons {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.box-sequenza.disabled {
+    visibility: hidden;
+}
