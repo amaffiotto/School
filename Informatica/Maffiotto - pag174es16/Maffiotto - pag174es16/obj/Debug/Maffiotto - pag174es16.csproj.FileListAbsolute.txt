@@ -1,0 +1,11 @@
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\bin\Debug\Maffiotto - pag174es16.exe.config
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\bin\Debug\Maffiotto - pag174es16.exe
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\bin\Debug\Maffiotto - pag174es16.pdb
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\obj\Debug\Maffiotto - pag174es16.csproj.AssemblyReference.cache
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\obj\Debug\Maffiotto___pag174es16.Form1.resources
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\obj\Debug\Maffiotto___pag174es16.Properties.Resources.resources
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\obj\Debug\Maffiotto - pag174es16.csproj.GenerateResource.cache
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\obj\Debug\Maffiotto - pag174es16.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\obj\Debug\Maffiotto - pag174es16.exe
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\obj\Debug\Maffiotto - pag174es16.pdb
+C:\Mac\Home\Documents\School\Informatica\Maffiotto - pag174es16\Maffiotto - pag174es16\obj\Debug\Maffiotto - pag174es16.exe.config

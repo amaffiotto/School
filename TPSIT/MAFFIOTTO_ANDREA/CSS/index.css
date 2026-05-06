@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap&#39);
+
+:root{
+    --bg-color-main: #eeee;
+    --arancio-colorati: rgb(255, 165, 0);
+    --blu-colorati: rgb(0, 0, 255);
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bg-color-main);
+}
+*{
+    font-family: 'Poppins';
+}
+
+header{
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.356);
+    z-index: 100000;
+}
+main{
+    padding: 100px;
+    display: flex;
+}
+
+header span{
+    color: blue;
+    font-weight: bold;
+}
+
+.shop-span{
+    color: black;
+}
+
+header ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 6px;
+    font-weight: bold;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.377);
+}
+
+.btn:hover{
+    scale: 1.05;
+}
+
+.emoji-container{
+    background-color: rgb(167, 211, 224);
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 50px;
+}
+
+article{
+    height: 350px;
+    width: 450px;
+    box-shadow: 1px 5px 5px ;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+article:hover{
+    animation: colorarediv 5s ease-in-out;
+    scale: 1.08;
+}
+
+.container-prodotti{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.container-scritte{
+    display: block;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-scritte span{
+    color: blue;
+    font-weight: bold;
+}
+
+.container-scritte p{
+    color: rgb(80, 80, 80);
+}
+
+.container-bottone-prezzo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#p-scroll{
+    overflow: scroll;
+    height: 53px;
+}
+
+footer{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px gray solid;
+}
+
+footer>p{
+    color: grey;
+}
+
+footer span{
+    color: blue;
+    font-weight: bold;
+}
+
+#footer-span{
+    color: white;
+}
+
+#carrello-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: solid 2px blue;
+    border-bottom: solid 2px grey;
+    animation: animcarrello 2s infinite reverse;
+}
+
+@keyframes animcarrello{
+    from{opacity: 0%;};
+    to{opacity: 100%;}
+}
+
+.container-colorati{
+    display: grid;
+    padding: 10px 300px;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+.colorato{
+    display: flex;
+    height: 50px;
+    width: 100%px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.col-blu{
+    background-color: var(--blu-colorati);
+}
+.col-org{
+    background-color: var(--arancio-colorati);
+}
+.sconto{
+    display: flex;
+    justify-self: right;
+    background-color: orange;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    animation: prezzorotate 2s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    animation: sconto 2s infinite ease-in-out;
+}
+
+@keyframes sconto{
+    from{rotate: calc(0deg);}
+    to{rotate: calc(360deg);}
+}
+
+.scontato{
+    border: 5px solid orange;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+@media (device-width: 480px){
+    .container-prodotti{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #navbar{
+        display: none;
+    }
+}
+
+@keyframes colorarediv{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+a:hover{
+    scale: 1.05;
+}

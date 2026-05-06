@@ -1,0 +1,79 @@
+body {
+    background-color: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+
+.card-img-top {
+    background-color: #dce8f7;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: center;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-sconto {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #ff8c00;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    color: #0d6efd;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.price-original {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 0.85rem;
+}
+
+.table thead th {
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.table tbody tr td {
+    font-size: 0.95rem;
+}
+
+.sconto-badge {
+    background-color: #ff8c00;
+    color: white;
+    border-radius: 20px;
+    padding: 3px 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: auto;
+}
