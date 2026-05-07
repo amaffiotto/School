@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+        <main>
+            <div class="container">
+                <h1 style="color: rgb(71 10 171);">Esempi pratici -- Modali</h1>
+                <style>
+                    .hrStyle{
+                        border-top: 8px solid rgb(71 10 171);
+                        color: rgb(71 10 171);
+                        opacity: 1;
+                    }
+                </style>
+                <hr class="hrStyle">
+
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modaleEliminaElemento">
+                    Elimina Elemento
+                </button>
+                
+                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modaleAggUtente">
+                    Aggiungi utente
+                </button>
+            </div>
+            <br><br><br><br>
+            <div class="container">
+                <h1 style="color: rgb(71 10 171);">Esempo pratico -- Scheda prdotto</h1>
+                <hr class="hrStyle">
+
+                <div class="container">
+                    <ul class="nav nav-tabs" id="productTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button" role="tab">Descrizione</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="desc-tab" data-bs-toggle="tab" data-bs-target="#spec" type="button" role="tab">Specifiche</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="desc-tab" data-bs-toggle="tab" data-bs-target="#recs" type="button" role="tab">Recensioni</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content border border-top-0 p-4 w-50" id="productTabContent">
+                        <div class="tab-pane show active" id="desc" role="tabpanel">
+                            <h3>Smartphone Galaxy Pro</h3>
+                            <p>Il Galaxy Pro è il più potente della sua categoria. Con schermo AMOLED da 6,7 pollici e fotocamera tripla da 108MP, ogni foto è uno scatto professionale
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="spec" role="tabpanel">
+                            <p><b>Schermo: </b>6,7" AMOLED 120Hz</p>
+                            <p><b>Processore: </b>Snapdragon 8 Gen 3</p>
+                            <p><b>RAM: </b>12 GB</p>
+                            <p><b>Batteria: </b>5000mAh</p>
+                            <p><b>Fotocamera: </b>108 + 12 + 10 MP</p>
+                        </div>
+                            <div class="tab-pane" id="recs" role="tabpanel">
+                                <p>⭐️⭐️⭐️⭐️⭐️ -- <i>"Ottimo telefono, batteria eccezionale!" -- Mario R.</i></p>
+                                <p>⭐️⭐️⭐️⭐️ -- <i>"Molto buono, un po' costoso" -- Giulia B.</i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+
+
+
+
+            <div class="modal fade" id="modaleEliminaElemento">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+
+                        <div class="modal-header bg-danger">
+                            <h5 class="modal-title" style="color: white;">Conferma Eliminazione</h5>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Sei sicuro di voler eliminare questo elemento? L'operazione non può essere annullata
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">Anulla</button>
+                            <button class="btn-danger btn">Elimina</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modaleAggUtente">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Nuovo Utente</h5>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <label class="form-label" for="Nome">Nome</label>
+                            <br>
+                            <input class="form-control" type="text" name="Nome" id="Nome" placeholder="Inserisci il nome">
+                            <br>
+                            <label class="form-label" for="Nome">Email</label>
+                            <br>
+                            <input class="form-control" type="email" name="Nome" id="Nome" placeholder="esempio@mail.it">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">Anulla</button>
+                            <button class="btn-success btn">Salva</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
