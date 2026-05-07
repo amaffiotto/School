@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Mac\\Home\\Documents\\School\\Informatica\\[LAB] Winforms 5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{920B58A5-2C71-49BF-9B2E-DF9ED6708D35}|lesson\\lesson.csproj|c:\\mac\\home\\documents\\school\\informatica\\[lab] winforms 5\\lesson\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{920B58A5-2C71-49BF-9B2E-DF9ED6708D35}|lesson\\lesson.csproj|solutionrelative:lesson\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{920B58A5-2C71-49BF-9B2E-DF9ED6708D35}|lesson\\lesson.csproj|c:\\mac\\home\\documents\\school\\informatica\\[lab] winforms 5\\lesson\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{920B58A5-2C71-49BF-9B2E-DF9ED6708D35}|lesson\\lesson.csproj|solutionrelative:lesson\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{920B58A5-2C71-49BF-9B2E-DF9ED6708D35}|lesson\\lesson.csproj|c:\\mac\\home\\documents\\school\\informatica\\[lab] winforms 5\\lesson\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{920B58A5-2C71-49BF-9B2E-DF9ED6708D35}|lesson\\lesson.csproj|solutionrelative:lesson\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\School\\Informatica\\[LAB] Winforms 5\\lesson\\README.md",
+              "RelativeDocumentMoniker": "lesson\\README.md",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\School\\Informatica\\[LAB] Winforms 5\\lesson\\README.md",
+              "RelativeToolTip": "lesson\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-07T07:39:43.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\School\\Informatica\\[LAB] Winforms 5\\lesson\\FrmMain.cs",
+              "RelativeDocumentMoniker": "lesson\\FrmMain.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\School\\Informatica\\[LAB] Winforms 5\\lesson\\FrmMain.cs [Design]",
+              "RelativeToolTip": "lesson\\FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T07:39:01.606Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\School\\Informatica\\[LAB] Winforms 5\\lesson\\FrmMain.cs",
+              "RelativeDocumentMoniker": "lesson\\FrmMain.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\School\\Informatica\\[LAB] Winforms 5\\lesson\\FrmMain.cs",
+              "RelativeToolTip": "lesson\\FrmMain.cs",
+              "ViewState": "AgIAABIAAACAIwAAAAAHwCwAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T07:05:48.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
