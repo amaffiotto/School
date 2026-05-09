@@ -1,5 +1,6 @@
 const chat = document.getElementById("chat")
 
+let testoInput = document.getElementById("testo")
 function invia(user){
     let testo = document.getElementById("testo")
     let nuovo_div = document.createElement("div")
@@ -59,3 +60,15 @@ function togliEmoji() {
     let reazione = ultimoMess.querySelector(".emoji-reaction");
     if (reazione) reazione.remove();
 }
+
+let button1 = document.getElementById("btn1");
+
+button1.addEventListener("click", () => {invia(1)})
+
+testoInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        invia(1);
+        invia(2);
+    }
+});
+
